@@ -43,3 +43,5 @@ Use `--out <file>` to write the report to disk.
 - Enforces environment enum (`dev|staging|prod`).
 - Enforces positive node sizing values.
 - Produces deployment plan report including Terraform command sequence and blueprint artifact inventory.
+
+- Changelog: minor updates.
