@@ -1,0 +1,12 @@
+{
+  "region": "example-region-1",
+  "environment": "dev",
+  "vpc_cidr": "10.10.0.0/16",
+  "private_subnet_a_cidr": "10.10.1.0/24",
+  "private_subnet_b_cidr": "10.10.2.0/24",
+  "eks_cluster_name": "example-eks-dev",
+  "cluster_role_arn": "arn:aws:iam::<AWS_ACCOUNT_ID>:role/<EKS_CLUSTER_ROLE>",
+  "node_role_arn": "arn:aws:iam::<AWS_ACCOUNT_ID>:role/<EKS_NODE_ROLE>",
+  "node_instance_type": "m6i.large",
+  "node_desired_size": 3
+}

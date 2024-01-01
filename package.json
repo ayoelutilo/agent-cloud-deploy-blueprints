@@ -1,0 +1,38 @@
+{
+  "name": "agent-cloud-deploy-blueprints",
+  "version": "0.1.0",
+  "description": "Multi-cloud deployment blueprints with validator and deployment plan generator.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "blueprints",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "prepack": "npm run build",
+    "test": "vitest run",
+    "plan": "node dist/cli.js"
+  },
+  "keywords": [
+    "terraform",
+    "aws",
+    "azure",
+    "gcp",
+    "deployment",
+    "validator"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.1.0"
+  }
+}

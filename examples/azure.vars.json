@@ -1,0 +1,10 @@
+{
+  "location": "example-location-1",
+  "environment": "dev",
+  "resource_group_name": "example-resource-group",
+  "vnet_cidr": "10.20.0.0/16",
+  "aks_subnet_cidr": "10.20.1.0/24",
+  "aks_cluster_name": "example-aks-cluster",
+  "node_vm_size": "Standard_D4s_v5",
+  "node_count": 3
+}

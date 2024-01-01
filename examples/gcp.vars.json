@@ -1,0 +1,10 @@
+{
+  "project_id": "example-project-id",
+  "region": "example-region-1",
+  "environment": "dev",
+  "network_name": "example-network",
+  "subnet_cidr": "10.30.0.0/20",
+  "gke_cluster_name": "example-gke-cluster",
+  "node_machine_type": "e2-standard-4",
+  "node_count": 3
+}
