@@ -89,3 +89,5 @@ export function formatPlanReportMarkdown(plan: DeploymentPlan): string {
 
   return `${lines.join("\n")}\n`;
 }
+
+// Refinement.
