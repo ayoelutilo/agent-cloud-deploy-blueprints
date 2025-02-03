@@ -45,3 +45,5 @@ export interface DeploymentPlan {
   resourceInventory: ResourceInventory;
   commands: string[];
 }
+
+// Refinement.
