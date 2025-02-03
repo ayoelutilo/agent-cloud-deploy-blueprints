@@ -80,3 +80,5 @@ export const BLUEPRINT_CATALOG: Record<CloudProvider, ProviderBlueprintSpec> = {
 export function getBlueprintSpec(provider: CloudProvider): ProviderBlueprintSpec {
   return BLUEPRINT_CATALOG[provider];
 }
+
+// Refinement.
