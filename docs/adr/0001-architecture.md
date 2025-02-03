@@ -24,3 +24,5 @@ Store cloud blueprints and deployment-input validation together in one repositor
   - Validator currently checks common constraints, not full provider-specific policy rules.
 
 - Changelog: minor updates.
+
+- Changelog: minor updates.
