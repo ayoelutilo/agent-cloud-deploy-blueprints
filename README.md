@@ -45,3 +45,5 @@ Use `--out <file>` to write the report to disk.
 - Produces deployment plan report including Terraform command sequence and blueprint artifact inventory.
 
 - Changelog: minor updates.
+
+- Changelog: minor updates.
