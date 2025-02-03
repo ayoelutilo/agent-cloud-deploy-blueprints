@@ -94,3 +94,5 @@ run().catch((error) => {
   process.stderr.write(`${error instanceof Error ? error.message : String(error)}\n`);
   process.exit(2);
 });
+
+// Refinement.
