@@ -22,7 +22,3 @@ Store cloud blueprints and deployment-input validation together in one repositor
 - Trade-offs:
   - Catalog metadata must stay synchronized with Terraform files.
   - Validator currently checks common constraints, not full provider-specific policy rules.
-
-- Changelog: minor updates.
-
-- Changelog: minor updates.

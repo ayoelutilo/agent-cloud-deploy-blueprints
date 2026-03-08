@@ -92,5 +92,3 @@ export function validateDeploymentInput(provider: CloudProvider, vars: InputVars
     errors
   };
 }
-
-// Refinement.

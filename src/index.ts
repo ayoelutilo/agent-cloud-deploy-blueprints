@@ -11,5 +11,3 @@ export type {
   ValidationMessage,
   ValidationResult
 } from "./types.js";
-
-// Refinement.
